@@ -4,6 +4,7 @@ recipes:
     mac_os_x:
         - homebrewalt::default
         - nodejs::default
+        - applications::sublime_text_3
         - osxdefaults::add_note_to_loginscreen
         - osxdefaults::disable_auto-correct
         - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
@@ -17,3 +18,10 @@ recipes:
 attributes:
     osxdefaults:
         loginmessage: Stay Foolish - Stay Hungry !!!
+    homebrewalt:
+        cask_apps:
+            - dropbox
+            - alfred
+            - vagrant
+            - hazel
+            - plash-player
