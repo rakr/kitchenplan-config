@@ -1,6 +1,8 @@
 .DS_Store
 Gemfile
 /vendor
+/kitchenplan
+/tmp
 kitchenplan-attributes.json
 solo.rb
 Cheffile.lock
