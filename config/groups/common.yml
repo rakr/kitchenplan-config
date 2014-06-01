@@ -25,3 +25,5 @@ attributes:
             - vagrant
             - hazel
             - flash-player
+            - iterm2
+            - vlc
